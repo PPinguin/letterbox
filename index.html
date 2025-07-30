@@ -4,8 +4,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LetterBox</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playpen+Sans:wght@100..800&family=Silkscreen:wght@400;700&display=swap');
+        </style>
+    <link rel="stylesheet" href="styles.css">
+    
 </head>
 <body>
-    
+    <div class="title">
+        <h2>
+            Открой письмо, когда ...
+        </h2>
+    </div>
+    <ul class="cards">
+        <li class="card" id="1">
+            <div class="envelope-container" onclick="openEnvelope(1)">
+                <div class="envelope" id="envelope1">
+                    <div class="envelope-body"></div>
+                    <div class="envelope-flap"></div>
+                    
+                    <div class="envelope-text">Солнечный день</div>
+                    
+                    <div class="letter">
+                        <div class="letter-greeting">My Dearest Friend,</div>
+                    </div>
+                </div>
+            </div>
+        
+        </li>
+        <li class="card" id="2">
+            <div class="envelope-container" onclick="openEnvelope(2)">
+                <div class="envelope" id="envelope2">
+                    <div class="envelope-body"></div>
+                    <div class="envelope-flap"></div>
+                    
+                    <div class="envelope-text">Чувтвуешь отчаяние</div>
+                    
+                    <div class="letter">
+                        <div class="letter-greeting">My Dearest Friend,</div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="card" id="3">
+            <div class="envelope-container" onclick="openEnvelope(3)">
+                <div class="envelope" id="envelope3">
+                    <div class="envelope-body"></div>
+                    <div class="envelope-flap"></div>
+                    
+                    <div class="envelope-text">Тебе тревожно</div>
+                    
+                    <div class="letter">
+                        <div class="letter-greeting">My Dearest Friend,</div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="card" id="4">
+            <div class="envelope-container" onclick="openEnvelope(4)">
+                <div class="envelope" id="envelope4">
+                    <div class="envelope-body"></div>
+                    <div class="envelope-flap"></div>
+                    
+                    <div class="envelope-text">Нужна радость</div>
+                    
+                    <div class="letter">
+                        <div class="letter-greeting">...</div>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li class="card" id="5">
+            <div class="envelope-container" onclick="openEnvelope(5)">
+                <div class="envelope" id="envelope5">
+                    <div class="envelope-body"></div>
+                    <div class="envelope-flap"></div>
+                    
+                    <div class="envelope-text">...</div>
+                    
+                    <div class="letter">
+                        <div class="letter-greeting"></div>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <div class="footer"></div>
+    <script src="main.js"></script>
 </body>
 </html>
