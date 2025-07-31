@@ -20,4 +20,19 @@ a {
     padding: 2vw;
     border-radius: 2vw;
     top: 100px;
+    width: 100vw
+}
+
+.quote {
+    font-style: italic;
+}
+
+
+.quote::after {
+    content: "\"";
+}
+
+
+.quote::before {
+    content: "\"";
 }
